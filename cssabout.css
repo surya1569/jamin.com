@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html { 
+  width: 100%; 
+  height:100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+	height:100%;
+  margin: 0;
+	font-family: "Roboto", sans-serif;
+	background: #4C3041;
+	background: linear-gradient(to bottom right, #337991, #e8aab4);
+}
+
+h1, h2 {
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+}
+button {
+    color: white;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 1px 1px 1px grey;
+    color: gray;
+    height: 40px;
+}
+
+form input, form textarea {
+  font-family: monospace;
+  box-sizing: border-box;
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 6px;
+  display: block;
+}
+form input::placeholder, form textarea::placeholder {
+  color: #b7b7b7;
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*  Login Form */
+form#login_form {
+  width:250px;
+  height:250px;
+  text-align:center;
+}
+form#login_form input {
+    width: 100%;
+}
+form#login_form button#login_btn {
+    width: 100%;
+}
+
+/*  Contact form*/
+h1#welcome_msg {
+    background: rgba(0,0,0,0.6);
+    margin: 0;
+    padding: 5px;
+}
+form#contact_form {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  text-align:center;
+}
+form#contact_form input {
+  width: 100%;
+}
+form#contact_form textarea#contact_message {
+  width: 100%;
+  height: auto;
+}
+form#contact_form button#contact_btn {
+    width: 100%;
+}
+
+
